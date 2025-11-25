@@ -11,7 +11,7 @@ async function main(){
   const argoDomainEnv = env('argodomain') || argv('argodomain') || ''
   const argoAuth = env('argoauth') || argv('argoauth') || ''
   const wsPath = '/cdn-cgi'
-  const listenHost = '127.0.0.1'
+  const listenHost = '0.0.0.0'
   const listenPort = 8000
   const domains = ['www.visa.cn','adventure-x.org','www.hltv.org','www.faceit.com','icook.tw']
 
